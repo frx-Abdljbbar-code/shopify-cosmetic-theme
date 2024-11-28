@@ -1,7 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "17327550032b0b208a": {
+      "type": "apps",
+      "blocks": {
+        "face_age_skincare_analyzer_w373ek": {
+          "type": "shopify://apps/face-age/blocks/skincare_analyzer/043acb67-6ee1-4433-bc05-31a4f8d134e0",
+          "settings": {
+            "height": 1300,
+            "fixed_height": true,
+            "face_type": "skincare-analyzer",
+            "access_dark_circle": true,
+            "access_eye_bag": true,
+            "access_eye_wrinkles": true,
+            "access_deep_wrinkles": true,
+            "access_wrinkles": true,
+            "access_acne": true,
+            "access_pores": true,
+            "access_pigment": true,
+            "import_method": "all",
+            "show_face_point": true
+          }
+        }
+      },
+      "block_order": [
+        "face_age_skincare_analyzer_w373ek"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -9,7 +47,7 @@
           "type": "text",
           "settings": {
             "heading": "Cosmetic",
-            "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non erat.<\/p>"
+            "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non erat.</p>"
           }
         },
         "link_list_QfDaH8": {
@@ -30,7 +68,7 @@
           "type": "text",
           "settings": {
             "heading": "Contact Us",
-            "subtext": "<p>123 ABC, TAN st, HCM city, Vietnam.<\/p><p><strong>T<\/strong>: <a href=\"tel:0123456989\" target=\"_blank\" title=\"tel:0123456989\">0123456989<\/a><\/p><p><strong>E<\/strong>: <a href=\"mailto:support@cosmetic.com\" target=\"_blank\" title=\"mailto:support@cosmetic.com\">support@cosmetic.com<\/a><\/p>"
+            "subtext": "<p>123 ABC, TAN st, HCM city, Vietnam.</p><p><strong>T</strong>: <a href=\"tel:0123456989\" target=\"_blank\" title=\"tel:0123456989\">0123456989</a></p><p><strong>E</strong>: <a href=\"mailto:support@cosmetic.com\" target=\"_blank\" title=\"mailto:support@cosmetic.com\">support@cosmetic.com</a></p>"
           }
         }
       },
@@ -52,11 +90,12 @@
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36,
-        "copyrighttext": "<p>Shopify Theme by <a href=\"\/\/eboosttech.net\" target=\"_blank\" title=\"\/\/eboosttech.net\">eboosttech.net<\/a><\/p>"
+        "copyrighttext": "<p>Shopify Theme by <a href=\"//eboosttech.net\" target=\"_blank\" title=\"//eboosttech.net\">eboosttech.net</a></p>"
       }
     }
   },
   "order": [
+    "17327550032b0b208a",
     "footer"
   ]
 }
