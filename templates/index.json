@@ -138,6 +138,7 @@
         "icon_item_kf4CiF",
         "icon_item_hQdqMB"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-5",
         "section_layout": "layout_1",

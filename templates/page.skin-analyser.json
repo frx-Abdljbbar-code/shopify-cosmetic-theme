@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 0
@@ -68,15 +69,16 @@
         "heading_z7ahm9",
         "text_xCVpkD"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
-        "image": "shopify://shop_images/pexels-photo-4620859.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "full_width": false,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -105,15 +107,16 @@
         "heading_BCVTXw",
         "text_HF9e3w"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "image": "shopify://shop_images/pexels-photo-3212179.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "full_width": false,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -142,15 +145,16 @@
         "heading_nACprx",
         "text_FAQTfM"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "image": "shopify://shop_images/pexels-photo-56827562.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "full_width": false,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -178,6 +182,7 @@
         "heading_cryi6N",
         "text_qDY3aN"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -193,7 +198,6 @@
         "column_qhRe96": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/photo-1613803136995-ecb98d3302b4.jpg",
             "title": "Praesent vel blandit mi, finibus imperdiet magna",
             "text": "<p>Vestibulum elementum diam in enim vehicula rhoncus. Praesent sed urna ex.</p>",
             "link_label": "",
@@ -203,7 +207,6 @@
         "column_nEaHRi": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/photo-1616683693504-3ea7e9ad6fec.jpg",
             "title": "Quisque vitae aliquet nulla",
             "text": "<p>Maecenas tempus turpis et purus scelerisque, eu blandit massa rhoncus. Nullam sit amet lorem tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
             "link_label": "",
@@ -213,7 +216,6 @@
         "column_M8BGN8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/portrait-of-young-afro-woman-with-bright-make-up.jpg",
             "title": "Sed a arcu vitae erat tincidunt pharetra eu a orci",
             "text": "<p>Sed efficitur non leo sit amet vulputate. Duis eu pharetra urna, sed rhoncus lectus. Praesent ultricies viverra efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",
             "link_label": "",
@@ -226,6 +228,7 @@
         "column_nEaHRi",
         "column_M8BGN8"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "title": "",
@@ -244,6 +247,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1732754860bb05b4fa": {
+      "type": "apps",
+      "blocks": {
+        "face_age_skincare_analyzer_fjpLyD": {
+          "type": "shopify://apps/face-age/blocks/skincare_analyzer/043acb67-6ee1-4433-bc05-31a4f8d134e0",
+          "settings": {
+            "height": 1300,
+            "fixed_height": true,
+            "face_type": "skincare-analyzer",
+            "access_dark_circle": true,
+            "access_eye_bag": true,
+            "access_eye_wrinkles": true,
+            "access_deep_wrinkles": true,
+            "access_wrinkles": true,
+            "access_acne": true,
+            "access_pores": true,
+            "access_pigment": true,
+            "import_method": "all",
+            "show_face_point": true
+          }
+        }
+      },
+      "block_order": [
+        "face_age_skincare_analyzer_fjpLyD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -253,6 +285,7 @@
     "image_with_text_N6BNMq",
     "image_with_text_MRtNpA",
     "rich_text_APYEt9",
-    "multicolumn_CQAfid"
+    "multicolumn_CQAfid",
+    "1732754860bb05b4fa"
   ]
 }
